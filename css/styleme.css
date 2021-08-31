@@ -1,0 +1,32 @@
+h2{
+    color: #EF233C;
+}
+
+.info{
+    text-align: center;
+}
+
+.mood-figure{
+    display: flex;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+  
+}
+
+/* img {
+    max-width: 220px;
+    max-height: 150px;
+} */
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}

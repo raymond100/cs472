@@ -32,9 +32,27 @@ footer {
     justify-content: space-around;
     background-color: rgb(130, 187, 187);
     height: 50px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 footer a {
     padding: 5px;
+}
+
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;   
+    justify-content: flex-end; 
+   
+}
+
+nav>ul>li a {
+display: block;
+color: #EF233C;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }

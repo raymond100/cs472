@@ -46,7 +46,7 @@ a{
     text-decoration: line-through;
 }
 
-.comments>article{
+.comments>figure{
     background-color: #FFFFA8 ;
     font-style: italic;
     width: 85%;
