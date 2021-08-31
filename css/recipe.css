@@ -1,0 +1,48 @@
+body{
+    background-color: #fff;
+    color: #404040;
+    font-family: Georgia, Garamond,'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+
+h1, .section-heading{
+    font-family: 'Lucida Sans Unicode','Helvetica','Arial', 'sans-serif';
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+}
+
+.section-heading{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+}
+
+a{
+    color: #A4A400;
+}
+
+.wrap{
+    width: 75%;
+    text-align: justify;
+}
+
+.wrap>span{
+    text-decoration: line-through;
+}
+
+.comments>article{
+    background-color: #FFFFA8 ;
+    font-style: italic;
+    width: 85%;
+    margin: auto;
+}
