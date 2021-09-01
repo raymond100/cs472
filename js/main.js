@@ -1,4 +1,4 @@
-fetch('./includes/_header.txt')
+fetch('../includes/_header.txt')
     .then(response => {
         return response.text()
     })
@@ -6,7 +6,7 @@ fetch('./includes/_header.txt')
         document.querySelector("header").innerHTML = data;
     });
 
-fetch('./includes/_footer.txt')
+fetch('../includes/_footer.txt')
     .then(response => {
         return response.text()
     })
