@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="../css/grade.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Retrieve your grade</h1>
+            <div class="form-wrapper">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="student_id">Student ID:</label>
+                        <input type="text" name="student_id" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="assignment">Assignment:</label>
+                        <select name="assignment" id="assignment" class="form-control">
+                            <option value="homepage">Homepage</option>
+                            <option value="recipe">Recipe</option>
+                            <option value="video">Video Review</option>
+                            <option value="form">HTML form</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Please select your entry:</label>
+                        <div class="select">
+                            <input type="radio" name="entry" id="february"><label for="february">February</label>
+                            <input type="radio" name="entry" id="may"> <label for="may">May</label>
+                            <input type="radio" name="entry" id="august"> <label for="august">August</label>
+                            <input type="radio" name="entry" id="november"> <label for="november">November</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control">Get grade</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

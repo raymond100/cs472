@@ -1,0 +1,89 @@
+main fieldset{
+    width: 450px;
+    margin: 0 auto;
+    background-color: #e0e1fe;
+    border: none;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+main .content legend{
+    background-color: #ffffff;
+    color: #5c5e6e;
+    width:fit-content;
+    margin:5px 2px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    border-width: 2px;
+    border-style: outset;
+    box-sizing: border-box;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-control{
+    padding: 0.2em 0px;
+    border: none;
+    font: inherit;
+    box-shadow: inset 1px 1px gray;
+    padding: 2px;
+}
+
+.form-group input[name="name"]{
+    margin-left: 90px;
+}
+
+.form-group span a{
+    color:#f584ab;
+    text-decoration: none;
+}
+
+#Male{
+    margin-left: 80px;
+}
+
+.form-group input[name="age"]{
+    width: 15%;
+    margin-left: 99px;
+}
+
+.form-group input[name="personality"]{
+    width: 15%;
+    margin-left: 15px;
+}
+
+#os{
+    margin-left: 50px; 
+}
+
+.seek input{
+    width: 15%; 
+}
+
+.seek input:first-of-type{
+    margin-left: 48px;
+}
+
+button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: #ffaaaa;
+    width: 90px;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+.font-normal{
+    font-weight: normal;
+}
