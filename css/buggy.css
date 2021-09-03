@@ -75,3 +75,11 @@ div#footer {
 p, ol {
     margin: 0 3em;
 }
+
+button{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 81, 119);
+    cursor: pointer;
+}
