@@ -9,21 +9,7 @@
 <head>
     <title>Tip Calculator</title>
     <link href="../css/tip.css" type="text/css" rel="stylesheet" />
-    <!-- <script src="tip.js" type="text/javascript"></script> -->
-    <script>
-        function calcTip() {
-            const subtotalElem = document.querySelector('#subtotal');
-            const tipElem = document.querySelector('#tip')
-            const totalElem = document.getElementById('total');
-            const subtotal = parseFloat(subtotalElem.value);
-            const tip = parseFloat(tipElem.value);
-
-            const total = subtotal + (subtotal * tip / 100);
-
-            totalElem.innerHTML = total ? '$' + total : 'Please enter numerical value.';
-        }
-
-    </script>
+    <script src="../js/tip.js" type="text/javascript"></script>
 </head>
 
 
