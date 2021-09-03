@@ -87,3 +87,10 @@ label{
 .font-normal{
     font-weight: normal;
 }
+
+.f-right{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+    
+}

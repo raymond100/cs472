@@ -1,10 +1,19 @@
 .form-wrapper{
     width: 50%;
-    margin: 0 auto;
+    margin: 10% auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.form-wrapper form{
+    padding: 16px;
 }
 
 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    color: #EF233C;
+    padding: 10px;
 }
 
 .form-group{
@@ -22,6 +31,7 @@ h1{
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-sizing:border-box
 }
 
 label{
@@ -34,9 +44,21 @@ label{
     justify-content: space-around;
 }
 
+.select div{
+    display: flex;
+}
+
 
 button[type='submit']{
     background-color: #EF233C;
     color: white;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: #f76e81;
+}
+
+.f-right{
+    float: right;
 }
