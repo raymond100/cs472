@@ -84,3 +84,9 @@ text-decoration: none;
     display: block;
     right: 0;
   }
+
+.dropdown-divider{
+    border: none;
+    height: 1px;
+    background-color: #EF233C;
+  }
