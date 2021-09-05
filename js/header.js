@@ -4,7 +4,7 @@
     if (pathname === "/index.html") {
         relLocation = '.';
     } else {
-        relLocation = '../';
+        relLocation = '..';
     }
     document.querySelector('header').innerHTML = `
     <div class="cover"></div>
