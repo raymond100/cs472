@@ -1,10 +1,19 @@
 (() => {
     const pathname = window.location.pathname;
+    const host = window.location.host;
     let relLocation;
-    if (pathname === "/index.html") {
-        relLocation = '.';
+    if (host === "127.0.0.1:5500") {
+        if (pathname === "/index.html") {
+            relLocation = '.';
+        } else {
+            relLocation = '..';
+        }
     } else {
-        relLocation = '..';
+        if (pathname === "/index.html") {
+            relLocation = 'cs472/.';
+        } else {
+            relLocation = 'cs472/..';
+        }
     }
     document.querySelector('header').innerHTML = `
     <div class="cover"></div>
