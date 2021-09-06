@@ -9,13 +9,7 @@
             relLocation = '../pages';
         }
     } else {
-        if (pathname === "/index.html") {
-            relLocation = 'cs472/';
-        } else if (pathname === "/about.html") {
-            relLocation = './pages';
-        } else {
-            relLocation = '../pages';
-        }
+        relLocation = 'cs472/';
     }
     document.querySelector('header').innerHTML = `
     <div class="cover"></div>
