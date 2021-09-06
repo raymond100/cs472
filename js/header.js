@@ -11,6 +11,8 @@
     } else {
         if (pathname === "/index.html") {
             relLocation = 'cs472/';
+        } else if (pathname === "/about.html") {
+            relLocation = '../pages';
         } else {
             relLocation = './pages';
         }
