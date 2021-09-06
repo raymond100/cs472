@@ -6,10 +6,6 @@
         if (pathname != "/index.html") {
             relLocation = '..';
         }
-    } else {
-        if (pathname === "/about.html") {
-            relLocation = '..';
-        }
     }
 
     document.querySelector('header').innerHTML = `
