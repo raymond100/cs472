@@ -12,9 +12,9 @@
         if (pathname === "/index.html") {
             relLocation = 'cs472/';
         } else if (pathname === "/about.html") {
-            relLocation = '../pages';
+            relLocation = './';
         } else {
-            relLocation = './pages';
+            relLocation = '../pages';
         }
     }
     document.querySelector('header').innerHTML = `
