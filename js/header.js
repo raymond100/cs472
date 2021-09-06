@@ -12,7 +12,7 @@
         if (pathname === "/index.html") {
             relLocation = 'cs472/';
         } else {
-            relLocation = '../';
+            relLocation = './pages';
         }
     }
     document.querySelector('header').innerHTML = `
