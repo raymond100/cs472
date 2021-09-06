@@ -1,11 +1,9 @@
 (() => {
     const pathname = window.location.pathname;
     const host = window.location.host;
-    let relLocation;
+    let relLocation = '.';
     if (host === "127.0.0.1:5500") {
-        if (pathname === "/index.html") {
-            relLocation = '.';
-        } else {
+        if (pathname != "/index.html") {
             relLocation = '..';
         }
     }
