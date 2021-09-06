@@ -12,7 +12,7 @@
         if (pathname === "/index.html") {
             relLocation = 'cs472/';
         } else if (pathname === "/about.html") {
-            relLocation = './';
+            relLocation = './pages';
         } else {
             relLocation = '../pages';
         }
