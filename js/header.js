@@ -10,9 +10,9 @@
         }
     } else {
         if (pathname === "/index.html") {
-            relLocation = 'cs472/pages';
+            relLocation = 'cs472/';
         } else {
-            relLocation = 'cs472/..';
+            relLocation = 'cs472/pages';
         }
     }
     document.querySelector('header').innerHTML = `
@@ -35,7 +35,7 @@
                         <hr class="dropdown-divider">
                     </li>
                     <li><a href="${relLocation}/tip.html">Tip Calculator</a></li>
-                    <li><a href="${relLocation}/buggy/buggyjs.html">Buggy Js</a></li>
+                    <li><a href="${relLocation}/../buggy/buggyjs.html">Buggy Js</a></li>
                     <li><a href="${relLocation}/decoratemytext.html">Decorate Text</a></li>
                 </div>
             </div>
