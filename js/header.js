@@ -7,7 +7,7 @@
             relLocation = '..';
         }
     } else {
-        if (pathname != "/index.html") {
+        if (pathname != "/about.html") {
             relLocation = '..';
         }
     }
