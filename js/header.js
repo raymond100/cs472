@@ -31,6 +31,7 @@
                     <li><a href="${relLocation}/buggy/buggyjs.html">Buggy Js</a></li>
                     <li><a href="${relLocation}/pages/decoratemytext.html">Decorate Text</a></li>
                     <li><a href="${relLocation}/data/JavascriptExercises.pdf">JS Exercices</a></li>
+                    <li><a href="${relLocation}/pages/ascii.html">Ascii Animation</a></li>
                 </div>
             </div>
         </ul>

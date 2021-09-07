@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: #CCCCFF;
+    margin: 0;
+    padding: 0;
+}
+
+article header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+article .textarea{
+    display: flex;
+    justify-content: center;
+    transition-delay: 200ms;
+}
+
+article textarea{
+    font-family: monospace;
+    font-size: 12pt;
+    width:90vw;
+    height: 400px;
+}
+
+article footer{
+    display: flex;
+    justify-content: center;
+}
+
+article footer fieldset {
+    border: 5px solid black;
+}
+
+body > footer:last-of-type{
+    float: right;
+}
