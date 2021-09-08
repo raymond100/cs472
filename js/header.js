@@ -33,6 +33,7 @@
                     <li><a href="${relLocation}/data/JavascriptExercises.pdf">JS Exercices</a></li>
                     <li><a href="${relLocation}/pages/ascii.html">Ascii Animation</a></li>
                     <li><a href="${relLocation}/pages/module.html">Module&Closure</a></li>
+                    <li><a href="${relLocation}/data/ScopeExercises.pdf">Scope Exercises</a></li>
                 </div>
             </div>
         </ul>
