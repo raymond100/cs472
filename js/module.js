@@ -23,25 +23,41 @@ window.addEventListener('DOMContentLoaded', () => {
     const textArea = document.querySelector('textarea');
     const accountInfoList = [];
     let result = '';
+    let inputName = '';
+    let inputDeposit = '';
 
     btnCreate.addEventListener('click', () => {
-        const inputName = document.querySelector('input[name=name]').value;
-        const inputDeposit = parseFloat(document.querySelector('input[name=deposit]').value);
+        inputName = document.querySelector('input[name=name]');
+        inputDeposit = document.querySelector('input[name=deposit]');
         textArea.disabled = true;
 
-        if (inputName != "" && inputDeposit > 0) {
-            const newAccount = account.createAccount(inputName, inputDeposit);
+        if (inputName.value != "" && parseFloat(inputDeposit.value) > 0) {
+            const newAccount = account.createAccount(inputName.value, inputDeposit.value);
             accountInfoList.push(newAccount);
+
+            accountInfoList.forEach(acc => {
+                result += `Account name: ${acc.getName()} Balance: ${acc.getDeposit()}\n`;
+            });
+
+            textArea.classList.remove('redColor');
+            textArea.value = result;
+            resetField();
+        } else {
+            textArea.value = 'Error: you must provide a valid entry!';
+            textArea.classList.add('redColor');
+            inputDeposit.focus();
         }
 
-        accountInfoList.forEach(acc => {
-            result += `Account name: ${acc.getName()} Balance: ${acc.getDeposit()}\n`
-        });
-
-        textArea.value = result;
-        result = '';
     });
-})
+
+    function resetField() {
+        result = '';
+        inputName.value = '';
+        inputDeposit.value = '';
+    }
+});
+
+
 
 
 

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+hr{
+    border: 1px dashed black;
+    
+}
+
+.form div{
+    margin: 10px;
+}
+
+.form textarea{
+    width: 100%;
+}
+
+
+.redColor{
+    color: red;
+}

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modules</title>
+    <title>Modules & Closures</title>
+    <link rel="stylesheet" href="../css/module.css">
     <script>
         var rudyTimer = (function () {
             let timer = null; // stores ID of interval timer 
@@ -21,7 +22,6 @@
         })();
         function rudy() { // called each time the timer goes off
             document.getElementById("output").innerHTML += " Rudy!";
-            console.log(document.querySelector('input[name=name]').value)
         }
 
     </script>
@@ -35,15 +35,16 @@
             <button onclick="rudyTimer();">Click me!</button>
             <span id="output"></span>
         </article>
+        <hr>
         <article>
             <h2>Create Account</h2>
-            <div>
+            <div class="form">
                 <div>
                     <label for="accountName">Account Name:</label>
                     <input type="text" name="name" id="accountName">
                 </div>
                 <div>
-                    <label for="accountDeposit">Account Deposit</label>
+                    <label for="accountDeposit">Deposit:</label>
                     <input type="text" name="deposit" id="accountDeposit">
                 </div>
                 <div>
