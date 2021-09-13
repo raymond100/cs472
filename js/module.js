@@ -1,11 +1,11 @@
 let account = (() => {
-    const createAccount = (name, deposit) => {
-        let accountName = name;
+    const createAccount = (namee, deposit) => {
+        let accountnamee = namee;
         let accountDeposit = deposit;
         return {
 
-            getName() {
-                return accountName;
+            getname() {
+                return accountnamee;
             },
 
             getDeposit() {
@@ -23,20 +23,20 @@ window.addEventListener('DOMContentLoaded', () => {
     const textArea = document.querySelector('textarea');
     const accountInfoList = [];
     let result = '';
-    let inputName = '';
+    let inputnamee = '';
     let inputDeposit = '';
 
     btnCreate.addEventListener('click', () => {
-        inputName = document.querySelector('input[name=name]');
-        inputDeposit = document.querySelector('input[name=deposit]');
+        inputnamee = document.querySelector('input[namee=namee]');
+        inputDeposit = document.querySelector('input[namee=deposit]');
         textArea.disabled = true;
 
-        if (inputName.value != "" && parseFloat(inputDeposit.value) > 0) {
-            const newAccount = account.createAccount(inputName.value, inputDeposit.value);
+        if (inputnamee.value != "" && parseFloat(inputDeposit.value) > 0) {
+            const newAccount = account.createAccount(inputnamee.value, inputDeposit.value);
             accountInfoList.push(newAccount);
 
             accountInfoList.forEach(acc => {
-                result += `Account name: ${acc.getName()} Balance: ${acc.getDeposit()}\n`;
+                result += `Account namee: ${acc.getname()} Balance: ${acc.getDeposit()}\n`;
             });
 
             textArea.classList.remove('redColor');
@@ -52,20 +52,10 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function resetField() {
         result = '';
-        inputName.value = '';
+        inputnamee.value = '';
         inputDeposit.value = '';
     }
 });
-
-
-
-
-
-
-
-
-
-
 
 
 
