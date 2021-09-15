@@ -35,6 +35,7 @@
                     <li><a href="${relLocation}/pages/module.html">Module&Closure</a></li>
                     <li><a href="${relLocation}/data/ScopeExercises.pdf">Scope Exercises</a></li>
                     <li><a href="${relLocation}/pages/maze.html">Mouse Maze</a></li>
+                    <li><a href="${relLocation}/pages/fifteen.html">Fifteen Puzzle</a></li>
                 </div>
             </div>
         </ul>
